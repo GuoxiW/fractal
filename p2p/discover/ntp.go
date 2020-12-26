@@ -24,7 +24,7 @@ import (
 	"net"
 	"sort"
 	"time"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 const (

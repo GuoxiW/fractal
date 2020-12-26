@@ -6,7 +6,7 @@ package difficulty
 
 import (
 	"encoding/json"
-	"github.com/fractal-platform/fractal/common/math"
+	"github.com/GuoxiW/fractal/common/math"
 	"math/big"
 	"os"
 	"path/filepath"

@@ -17,7 +17,7 @@ master | dev
 2. clone source
     ```
     cd $GOPATH/src
-    git clone https://github.com/GuoxiW/fractal github.com/GuoxiW/fractal
+    git clone https://github.com/GuoxiW/fractal github.comgithub.com/GuoxiW/fractal
     ```
     
 3. build
@@ -25,7 +25,7 @@ master | dev
     cd $GOPATH/src/github.com/GuoxiW/fractal
     go install -v -ldflags "-X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gftl/  
     go install -v -ldflags "-X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gtool/
-    sudo cp transaction/txec/libwasmlib.dylib /usr/local/lib/
+    sudo cp transaction/txexec/libwasmlib.dylib /usr/local/lib/
     ```
 
 ## Running Fractal blockchain

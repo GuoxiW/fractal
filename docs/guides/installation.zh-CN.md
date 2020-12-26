@@ -21,7 +21,7 @@
 1.启动Terminal应用程序。
 2.获取安装脚本，然后在Terminal中运行它：
 ```
-    $ curl -O -L https://github.com/fractal-platform/fractal/releases/download/v0.2.1/install.sh
+    $ curl -O -L https://github.com/GuoxiW/fractal/releases/download/v0.2.1/install.sh
     $ bash install.sh
     VERSION:
         0.2.1-stable-1328975
@@ -32,7 +32,7 @@
 如果您在Terminal中获得VERSION，则表示安装成功。
 
 ## 详细安装步骤
-1. 获取安装包。访问我们的[github release page](https://github.com/fractal-platform/fractal/releases)，并下载相应平台和版本的tgz文件。
+1. 获取安装包。访问我们的[github release page](https://github.com/GuoxiW/fractal/releases)，并下载相应平台和版本的tgz文件。
 2. 解压缩tgz文件，您将获得二进制文件(gftl/gtool)和库文件。
 3. 将二进制文件复制到系统bin路径（建议使用*/usr/local/bin/*）。
 4. 将库文件复制到系统库路径（建议使用*/usr/lib64/*或*/usr/lib/*）。

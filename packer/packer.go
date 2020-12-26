@@ -1,8 +1,8 @@
 package packer
 
 import (
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/event"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/event"
 )
 
 type Packer interface {

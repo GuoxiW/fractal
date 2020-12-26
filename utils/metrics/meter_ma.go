@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	ds "github.com/fractal-platform/fractal/utils/datastructure"
+	ds "github.com/GuoxiW/fractal/utils/datastructure"
 	"github.com/rcrowley/go-metrics"
 	"math"
 	"sync"

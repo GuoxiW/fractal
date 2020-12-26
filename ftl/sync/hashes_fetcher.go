@@ -5,8 +5,8 @@
 package sync
 
 import (
-	"github.com/fractal-platform/fractal/ftl/protocol"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/ftl/protocol"
+	"github.com/GuoxiW/fractal/utils/log"
 	"time"
 )
 

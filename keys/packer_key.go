@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/utils/log"
 	"github.com/pborman/uuid"
 )
 

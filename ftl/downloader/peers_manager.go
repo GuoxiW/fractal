@@ -2,7 +2,7 @@ package downloader
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/utils/log"
 	"sort"
 	"sync"
 	"sync/atomic"

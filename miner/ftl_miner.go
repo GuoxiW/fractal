@@ -5,16 +5,16 @@
 package miner
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/config"
-	"github.com/fractal-platform/fractal/core/pool"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/event"
-	"github.com/fractal-platform/fractal/keys"
-	"github.com/fractal-platform/fractal/transaction/txexec"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/config"
+	"github.com/GuoxiW/fractal/core/pool"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/event"
+	"github.com/GuoxiW/fractal/keys"
+	"github.com/GuoxiW/fractal/transaction/txexec"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 type blockChain interface {

@@ -2,12 +2,12 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/trie"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/crypto/sha3"
+	"github.com/GuoxiW/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/trie"
+	"github.com/GuoxiW/fractal/utils/log"
 	"hash"
 	"math"
 	"sync"

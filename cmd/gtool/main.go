@@ -6,8 +6,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/cmd/utils"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/cmd/utils"
+	"github.com/GuoxiW/fractal/utils/log"
 	"gopkg.in/urfave/cli.v1"
 	"os"
 	"sort"

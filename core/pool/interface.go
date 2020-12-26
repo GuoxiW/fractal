@@ -4,10 +4,10 @@ import (
 	"container/heap"
 	"math/big"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/event"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/event"
 )
 
 type EleByNonce []Element

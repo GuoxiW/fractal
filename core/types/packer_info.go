@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/fractal-platform/fractal/common"
+	"github.com/GuoxiW/fractal/common"
 	"github.com/hashicorp/golang-lru"
 )
 

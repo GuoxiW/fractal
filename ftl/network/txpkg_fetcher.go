@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/fractal-platform/fractal/common"
+	"github.com/GuoxiW/fractal/common"
 	"sync"
 	"github.com/deckarep/golang-set"
 )

@@ -5,11 +5,11 @@
 package network
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/packer/pksvc"
-	"github.com/fractal-platform/fractal/transaction"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/packer/pksvc"
+	"github.com/GuoxiW/fractal/transaction"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 func (pm *ProtocolManager) txBroadcastLoop() {

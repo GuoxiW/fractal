@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/trie"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -5,8 +5,8 @@
 package network
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/p2p"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/p2p"
 	"sync"
 )
 

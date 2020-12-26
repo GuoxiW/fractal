@@ -5,8 +5,8 @@ package types
 import (
 	"encoding/json"
 	"errors"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
 )
 
 var _ = (*receiptMarshaling)(nil)

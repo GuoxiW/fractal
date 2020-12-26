@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/config"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/event"
-	"github.com/fractal-platform/fractal/params"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/config"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/event"
+	"github.com/GuoxiW/fractal/params"
+	"github.com/GuoxiW/fractal/utils/log"
 	"github.com/rcrowley/go-metrics"
 )
 

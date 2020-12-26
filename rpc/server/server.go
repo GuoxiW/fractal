@@ -7,8 +7,8 @@ package rpcserver
 import (
 	"context"
 	"fmt"
-	"github.com/fractal-platform/fractal/rpc"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/rpc"
+	"github.com/GuoxiW/fractal/utils/log"
 	"net/http"
 	"time"
 

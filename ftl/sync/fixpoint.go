@@ -7,11 +7,11 @@ package sync
 
 import (
 	"errors"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/ftl/downloader"
-	"github.com/fractal-platform/fractal/ftl/network"
-	"github.com/fractal-platform/fractal/ftl/protocol"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/ftl/downloader"
+	"github.com/GuoxiW/fractal/ftl/network"
+	"github.com/GuoxiW/fractal/ftl/protocol"
 	"time"
 )
 

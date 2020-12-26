@@ -2,11 +2,11 @@ package main
 
 import "C"
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/rpc/client"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/rpc/client"
+	"github.com/GuoxiW/fractal/utils/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

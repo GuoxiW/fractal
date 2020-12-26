@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/crypto/sha3"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/crypto/sha3"
 )
 
 // Lengths of hashes and addresses in bytes.

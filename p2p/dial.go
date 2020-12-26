@@ -25,9 +25,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/p2p/netutil"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/p2p/discover"
+	"github.com/GuoxiW/fractal/p2p/netutil"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 const (

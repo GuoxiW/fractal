@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/crypto"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/crypto"
 )
 
 type bytesBacked interface {

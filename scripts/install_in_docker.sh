@@ -10,7 +10,7 @@ cd ~/fractal-test
 
 function download() {
 	filename=$1
-	fileurl="https://github.com/fractal-platform/fractal/releases/download/$VERSION/$filename"
+	fileurl="https://github.com/GuoxiW/fractal/releases/download/$VERSION/$filename"
 
     printf "Downloading package from $fileurl\\n"
 

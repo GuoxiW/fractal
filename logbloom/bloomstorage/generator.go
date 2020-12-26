@@ -3,8 +3,8 @@ package bloomstorage
 import (
 	"errors"
 
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/params"
 )
 
 var (

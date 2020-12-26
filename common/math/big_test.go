@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common"
+	"github.com/GuoxiW/fractal/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

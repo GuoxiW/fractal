@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/fractal-platform/fractal/common/math"
-	"github.com/fractal-platform/fractal/crypto/secp256k1"
+	"github.com/GuoxiW/fractal/common/math"
+	"github.com/GuoxiW/fractal/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

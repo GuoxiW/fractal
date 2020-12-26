@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/dbwrapper"
 )
 
 func newTestLDB() (*dbwrapper.LDBDatabase, func()) {

@@ -30,9 +30,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/crypto/secp256k1"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

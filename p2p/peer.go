@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/common/mclock"
-	"github.com/fractal-platform/fractal/event"
-	"github.com/fractal-platform/fractal/p2p/discover"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common/mclock"
+	"github.com/GuoxiW/fractal/event"
+	"github.com/GuoxiW/fractal/p2p/discover"
+	"github.com/GuoxiW/fractal/rlp"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 var (

@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/params"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/crypto/sha3"
+	"github.com/GuoxiW/fractal/params"
+	"github.com/GuoxiW/fractal/rlp"
 )
 
 // BlockHeader represents the header of a block in the Fractal blockchain

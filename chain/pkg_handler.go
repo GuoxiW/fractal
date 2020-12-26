@@ -1,10 +1,10 @@
 package chain
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/dbaccessor"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/dbaccessor"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/params"
 	"sync"
 )
 

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/utils/log"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/exp"

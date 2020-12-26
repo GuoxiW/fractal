@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/common/math"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/common/math"
 )
 
 var (

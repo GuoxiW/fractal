@@ -7,8 +7,8 @@ package txexec
 import (
 	"math/big"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/state"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/state"
 )
 
 // CanTransfer checks whether there are enough funds in the address' account to make a transfer.

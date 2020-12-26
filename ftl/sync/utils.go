@@ -1,8 +1,8 @@
 package sync
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/ftl/protocol"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/ftl/protocol"
 )
 
 func getBestPeerByHead(peers []peer) peer {

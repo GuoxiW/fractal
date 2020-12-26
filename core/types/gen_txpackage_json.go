@@ -4,8 +4,8 @@ package types
 
 import (
 	"encoding/json"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
 	"math/big"
 )
 

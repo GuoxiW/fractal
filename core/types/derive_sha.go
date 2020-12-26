@@ -3,9 +3,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/trie"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/rlp"
+	"github.com/GuoxiW/fractal/trie"
 )
 
 type DerivableList interface {

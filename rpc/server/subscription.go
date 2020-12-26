@@ -6,7 +6,7 @@ import (
 	crand "crypto/rand"
 	"encoding/binary"
 	"encoding/hex"
-	"github.com/fractal-platform/fractal/rpc"
+	"github.com/GuoxiW/fractal/rpc"
 	"math/rand"
 	"strings"
 	"sync"

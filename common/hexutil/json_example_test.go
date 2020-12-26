@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/fractal-platform/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/common/hexutil"
 )
 
 type MyType [5]byte

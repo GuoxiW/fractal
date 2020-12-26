@@ -21,7 +21,7 @@ Hardware Minimum Requirements:
 1. Start the terminal application.
 2. Fetch install script, and run it in terminal:
 ```
-    $ curl -O -L https://github.com/fractal-platform/fractal/releases/download/v0.2.1/install.sh
+    $ curl -O -L https://github.com/GuoxiW/fractal/releases/download/v0.2.1/install.sh
     $ bash install.sh
     VERSION:
         0.2.1-stable-1328975
@@ -32,7 +32,7 @@ Hardware Minimum Requirements:
 If you get VERSION in terminal, it means that your installation is successful.
 
 ## Detailed Installation Steps
-1. Fetch install package. Visit our [github release page](https://github.com/fractal-platform/fractal/releases), and download tgz file of corresponding platform and version.
+1. Fetch install package. Visit our [github release page](https://github.com/GuoxiW/fractal/releases), and download tgz file of corresponding platform and version.
 2. Unpack tgz file, you will get binary files(gftl/gtool) and library files.
 3. Copy binary files to system bin path(*/usr/local/bin/* is recommended).
 4. Copy library files to system library path(*/usr/lib64/* or */usr/lib/* is recommended).

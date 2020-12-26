@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/dbwrapper"
 )
 
 func init() {

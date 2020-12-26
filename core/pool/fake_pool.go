@@ -1,14 +1,14 @@
 package pool
 
 import (
-	"github.com/fractal-platform/fractal/core/types"
+	"github.com/GuoxiW/fractal/core/types"
 	"sync"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/event"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/event"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 type fakePool struct {

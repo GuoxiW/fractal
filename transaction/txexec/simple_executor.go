@@ -5,11 +5,11 @@
 package txexec
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/nonces"
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/nonces"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 type SimpleExecutor struct {

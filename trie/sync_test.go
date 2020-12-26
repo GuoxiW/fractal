@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/dbwrapper"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

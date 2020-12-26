@@ -2,11 +2,11 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/ftl/protocol"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/ftl/protocol"
+	"github.com/GuoxiW/fractal/rlp"
+	"github.com/GuoxiW/fractal/utils/log"
 	"github.com/deckarep/golang-set"
 	"math"
 	"sync"

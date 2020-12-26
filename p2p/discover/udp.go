@@ -25,10 +25,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/p2p/netutil"
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/p2p/netutil"
+	"github.com/GuoxiW/fractal/rlp"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 // Errors

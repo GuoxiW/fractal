@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/hexutil"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/hexutil"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/rlp"
 )
 
 //go:generate gencodec -type pkgData -field-override pkgDataMarshaling -out gen_txpackage_json.go

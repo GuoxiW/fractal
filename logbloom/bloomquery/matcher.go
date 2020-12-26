@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fractal-platform/fractal/common/bitutil"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/GuoxiW/fractal/common/bitutil"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/params"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

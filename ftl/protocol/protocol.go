@@ -5,8 +5,8 @@
 package protocol
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/types"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/types"
 	"strconv"
 )
 

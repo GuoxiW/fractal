@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/deckarep/golang-set"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/diffculty"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/crypto"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/diffculty"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/crypto"
+	"github.com/GuoxiW/fractal/params"
 )
 
 func (bc *BlockChain) VerifyBlock(block *types.Block, checkGreedy bool) (types.Blocks, common.Hash, common.Hash, error) {

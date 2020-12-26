@@ -6,8 +6,8 @@
 package difficulty
 
 import (
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/params"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/params"
 	"math/big"
 )
 

@@ -8,9 +8,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/fractal-platform/fractal/core/state"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/core/state"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 var (

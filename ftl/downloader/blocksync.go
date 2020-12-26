@@ -2,12 +2,12 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/config"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/dbwrapper"
-	"github.com/fractal-platform/fractal/ftl/protocol"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/config"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/ftl/protocol"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 var downloaderNo = 1

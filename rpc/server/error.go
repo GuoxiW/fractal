@@ -7,7 +7,7 @@ package rpcserver
 import (
 	"fmt"
 
-	"github.com/fractal-platform/fractal/rpc"
+	"github.com/GuoxiW/fractal/rpc"
 )
 
 // Error contain an error code in addition to the message.

@@ -1,8 +1,8 @@
 package dbaccessor
 
 import (
-	"github.com/fractal-platform/fractal/rlp"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/rlp"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

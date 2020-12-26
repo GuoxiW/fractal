@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/dbwrapper"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/dbwrapper"
 )
 
 func TestIterator(t *testing.T) {

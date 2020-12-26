@@ -2,9 +2,9 @@ package chain
 
 import (
 	"fmt"
-	"github.com/fractal-platform/fractal/core/config"
-	"github.com/fractal-platform/fractal/core/types"
-	"github.com/fractal-platform/fractal/utils"
+	"github.com/GuoxiW/fractal/core/config"
+	"github.com/GuoxiW/fractal/core/types"
+	"github.com/GuoxiW/fractal/utils"
 	"github.com/deckarep/golang-set"
 )
 

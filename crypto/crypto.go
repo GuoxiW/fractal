@@ -30,10 +30,10 @@ import (
 	"os"
 	"vuvuzela.io/crypto/bn256"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/common/math"
-	"github.com/fractal-platform/fractal/crypto/sha3"
-	"github.com/fractal-platform/fractal/rlp"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/common/math"
+	"github.com/GuoxiW/fractal/crypto/sha3"
+	"github.com/GuoxiW/fractal/rlp"
 )
 
 var (

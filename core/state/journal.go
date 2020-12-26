@@ -3,8 +3,8 @@ package state
 import (
 	"math/big"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/core/nonces"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/core/nonces"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

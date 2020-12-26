@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/fractal-platform/fractal/common"
-	"github.com/fractal-platform/fractal/utils/log"
+	"github.com/GuoxiW/fractal/common"
+	"github.com/GuoxiW/fractal/utils/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all
