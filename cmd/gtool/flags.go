@@ -154,4 +154,10 @@ var (
 		Name:  "k256Hash",
 		Usage: "Keccak256 hash result",
 	}
+
+	// for data
+	DataFlag = cli.StringFlag{
+		Name:  "data",
+		Usage: "data string",
+	}
 )

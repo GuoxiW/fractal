@@ -34,6 +34,7 @@ master | dev
     ```
     cd ~
     mkdir test
+    cd ~/test
     gtool keys --keys data1/keys --pass 666 newkeys
     gtool keys --keys data2/keys --pass 666 newkeys
     address1=$(gtool keys --keys data1/keys --pass 666 list | grep "Account Key" | awk -F: '{print $2}')
@@ -43,7 +44,7 @@ master | dev
 2. Setup the first node
     ```
     cd ~/test
-    cp $GOPATH/src/fractal/cmd/gftl/test.toml .
+    cp /home/guoxi/go/src/github.com/GuoxiW/fractal/cmd/gftl/test.toml .
     gftl --config test.toml --genesisAlloc genesis_alloc.json --rpc --rpcport 8545 --datadir data1 --port 30303 --pprof --pprofport 6060 --verbosity 3 --mine --packer --unlock 666
     ```
   

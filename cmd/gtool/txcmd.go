@@ -45,6 +45,7 @@ var (
 			AbiFlag,
 			ActionFlag,
 			ArgsFlag,
+			DataFlag,
 		},
 		Subcommands: []cli.Command{
 			{
@@ -59,6 +60,7 @@ var (
 					ChainIdFlag,
 					KeyFolderFlag,
 					PasswordFlag,
+					DataFlag,
 				},
 			},
 			{
@@ -150,6 +152,11 @@ func sendTransaction(ctx *cli.Context) error {
 	password := ctx.GlobalString(PasswordFlag.Name)
 	accountKeyFile := path.Join(folder, "account.json")
 	accountKey, err := keys.LoadAccountKey(accountKeyFile, password)
+
+	//data
+	dataString := ctx.GlobalString(DataFlag.Name)
+	data := []byte(dataString)
+
 	if err != nil {
 		log.Error("load account key error", "err", err)
 		return err
@@ -173,9 +180,11 @@ func sendTransaction(ctx *cli.Context) error {
 	var addrTo = common.HexToAddress(to)
 	var tx *types.Transaction
 	if packer {
-		tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 3e6, common.Big1, []byte{}, false)
+		//tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 3e6, common.Big1, []byte{}, false)
+		tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 1e10, common.Big1, data, false)
 	} else {
-		tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 3e6, common.Big1, []byte{}, true)
+		//tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 3e6, common.Big1, []byte{}, true)
+		tx = types.NewTransaction((uint64)(nonce), addrTo, big.NewInt(value), 1e10, common.Big1, data, true)
 	}
 	tx, err = types.SignTx(tx, signer, accountKey.PrivKey)
 	if err != nil {
