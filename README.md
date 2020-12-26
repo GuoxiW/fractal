@@ -62,5 +62,6 @@ master | dev
 6. publish data, the address can be copied from the wallet
     ```
     gtool tx --rpc http://35.170.127.58:8545 --to <address> --chainid 1 --keys data/keys --pass <password> --data <your data> send
+    ```
 
 
