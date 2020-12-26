@@ -17,12 +17,12 @@ master | dev
 2. clone source
     ```
     cd $GOPATH/src
-    git clone git@github.com:fractal-platform/fractal.git github.com/fractal-platform/fractal
+    git clone https://github.com/GuoxiW/fractal github.com/GuoxiW/fractal
     ```
     
 3. build
     ```
-    cd $GOPATH/src/github.com/fractal-platform/fractal
+    cd $GOPATH/src/github.com/GuoxiW/fractal
     go install -v -ldflags "-X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gftl/  
     go install -v -ldflags "-X main.gitCommit=$(git log --pretty=format:'%h' -1)" ./cmd/gtool/
     sudo cp transaction/txec/libwasmlib.dylib /usr/local/lib/
